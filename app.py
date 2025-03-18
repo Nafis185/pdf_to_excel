@@ -305,6 +305,6 @@ def extract_data_from_pdf(pdf_path):
 
 
 # Add the following block to handle local development
-# if __name__ == '__main__':
+if __name__ == '__main__':
 #     # Only run the Flask development server locally
-    # app.run(debug=True, host='0.0.0.0')
+    app.run(debug=True, host='0.0.0.0')
